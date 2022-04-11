@@ -1,0 +1,70 @@
+.App {
+  background-color: #d5e4f3;
+  z-index: 1;
+}
+
+/* Header */
+.Header {
+}
+
+.Header-img {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 5vh;
+}
+
+.Header-button {
+  width: 8vw;
+  height: 5vh;
+  float: right;
+  vertical-align: middle;
+  border-radius: 10vh;
+  margin-top: 2.5vh;
+  margin-right: 2.5vw;
+}
+
+/* Preview */
+
+.BG-img {
+  width: 100vmax;
+}
+
+/* Project */
+
+.Projects {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2vh;
+}
+
+.Nwitter {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 10vh;
+  border: 1px solid white;
+}
+
+.Nwitter:hover {
+  background-color: blue;
+}
+
+.ToDo {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 10vh;
+  border: 1px solid white;
+}
+
+.ToDo:hover {
+  background-color: navy;
+  color: white;
+}
+
+/* Footer */
+.Footer {
+  text-align: center;
+  font-weight: bold;
+  background-color: #044d91;
+  color: white;
+  height: 3vh;
+}
