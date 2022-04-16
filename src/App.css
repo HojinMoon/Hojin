@@ -37,14 +37,14 @@
   margin-bottom: 2vh;
 }
 
-.Nwitter {
+.Twitter {
   width: 5vw;
   height: 5vw;
   border-radius: 10vh;
   border: 1px solid white;
 }
 
-.Nwitter:hover {
+.Twitter:hover {
   background-color: #0e79ed;
 }
 

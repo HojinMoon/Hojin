@@ -7,9 +7,9 @@ const Project = () => {
       <project className="Projects">
         <button
           onClick={() =>
-            window.open("http://hojinmoon.github.io/hojin-nwitter", "_blank")
+            window.open("http://hojinmoon.github.io/hojin-twitter", "_blank")
           }
-          className="Nwitter"
+          className="Twitter"
         >
           Nwitter
         </button>
