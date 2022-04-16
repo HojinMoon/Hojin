@@ -7,7 +7,7 @@ const Project = () => {
       <project className="Projects">
         <button
           onClick={() =>
-            window.open("http://hojinmoon.github.io/nwitter", "_blank")
+            window.open("http://hojinmoon.github.io/hojin-nwitter", "_blank")
           }
           className="Nwitter"
         >
@@ -20,6 +20,14 @@ const Project = () => {
           className="ToDo"
         >
           ToDo
+        </button>
+        <button
+          onClick={() =>
+            window.open("http://hojinmoon.github.io/LocalToDo", "_blank")
+          }
+          className="LocalToDo"
+        >
+          LocalToDo
         </button>
       </project>
     </div>
